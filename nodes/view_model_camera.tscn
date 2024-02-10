@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://w2hhfjd6kvm8"]
+
+[node name="view_model_camera" type="Camera3D"]
+fov = 35.0
+
+[node name="fps_rig" type="Node3D" parent="."]
+
+[node name="weapon" type="Node3D" parent="fps_rig"]
