@@ -1,0 +1,11 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://b2ulu14sxtdxu"]
+
+[ext_resource type="Texture2D" uid="uid://bffy3vmhtp7xs" path="res://models/textures/alien-green.png" id="1_ifacn"]
+
+[resource]
+resource_name = "Material"
+cull_mode = 2
+albedo_texture = ExtResource("1_ifacn")
+metallic = 1.0
+uv1_triplanar_sharpness = 1e-05
+texture_filter = 0
