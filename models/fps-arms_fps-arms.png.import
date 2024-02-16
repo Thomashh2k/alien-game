@@ -2,17 +2,18 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c4niiyt5vlxbf"
-path.s3tc="res://.godot/imported/fps-arms_Sprite _Sheet_.png-3dc779e626e3c4e7867cef80c526a936.s3tc.ctex"
+uid="uid://yv8bkvweto8r"
+path.s3tc="res://.godot/imported/fps-arms_fps-arms.png-a6c8ddd3ad90ce3345bf0f0376b67118.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
+generator_parameters={}
 
 [deps]
 
-source_file="res://models/fps-arms_Sprite _Sheet_.png"
-dest_files=["res://.godot/imported/fps-arms_Sprite _Sheet_.png-3dc779e626e3c4e7867cef80c526a936.s3tc.ctex"]
+source_file="res://models/fps-arms_fps-arms.png"
+dest_files=["res://.godot/imported/fps-arms_fps-arms.png-a6c8ddd3ad90ce3345bf0f0376b67118.s3tc.ctex"]
 
 [params]
 
