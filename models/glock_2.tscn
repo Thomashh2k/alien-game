@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://cg5rlxskqp0c"]
+
+[ext_resource type="PackedScene" uid="uid://nti3j0gkl3y1" path="res://models/glock.blend" id="1_g11v8"]
+[ext_resource type="Script" path="res://nodes/glock.gd" id="2_0ymxu"]
+
+[node name="glock2" instance=ExtResource("1_g11v8")]
+transform = Transform3D(0.15, 0, 0, 0, 0.15, 0, 0, 0, 0.15, 0, 0, 0)
+script = ExtResource("2_0ymxu")
+
+[node name="Skeleton3D" parent="Glock_Rig" index="0"]
+bones/0/rotation = Quaternion(0.5, -0.5, -0.5, -0.5)
+bones/2/rotation = Quaternion(-0.839681, -1.60619e-07, 6.25612e-08, 0.54308)
+bones/2/scale = Vector3(1, 1, 1)
+bones/3/rotation = Quaternion(-0.707107, 0, 0, 0.707107)
+
+[node name="glock" parent="Glock_Rig/Skeleton3D" index="0"]
+layers = 2
+
+[node name="magazine" parent="Glock_Rig/Skeleton3D" index="1"]
+layers = 2
