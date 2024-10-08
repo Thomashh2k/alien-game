@@ -76,6 +76,10 @@ func _input(event):
 		# lock vertically mouse movement 89" degrees down and up
 		head.rotation.x = clamp(head.rotation.x, deg_to_rad(-89), deg_to_rad(89))
 		#view_model_camera.sway(Vector2(event.relative.x, event.relative.y))
+	
+	if event is InputEventKey:
+		if event.pressed and event.s == KEY_ESCAPE:
+			get_tree().quit()
 
 func _process(delta):
 	pass
